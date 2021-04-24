@@ -98,7 +98,7 @@
 					console.log($description.html());
 
 					if($description != undefined && $description.html() != undefined){
-						$modalText.html($description.html().trim().replace('<p style="display: none;">', "<p>"));
+						$modalText.html($description.html().trim().replace('<p style="display: none;">', '<p style="padding: 2%;">'));
 					}
 				// Not an image? Bail.
 					if (!href.match(/\.(jpg|gif|png|mp4)$/))
